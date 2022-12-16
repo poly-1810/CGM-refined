@@ -50,9 +50,7 @@ public class ModItems
 
     /* Barrel Attachments */
     public static final RegistryObject<Item> SILENCER = REGISTER.register("silencer", () -> new BarrelItem(Barrel.create(8.0F, GunModifiers.SILENCED, GunModifiers.REDUCED_DAMAGE), new Item.Properties().stacksTo(1).tab(GunMod.GROUP)));
-    public static final RegistryObject<Item> LIGHT_MUZZLE_BREAK = REGISTER.register("light_muzzle_break", () -> new BarrelItem(Barrel.create(12.0F, GunModifiers.LIGHT_RECOIL), new Item.Properties().stacksTo(1).tab(GunMod.GROUP)));
     public static final RegistryObject<Item> MUZZLE_BREAK = REGISTER.register("muzzle_break", () -> new BarrelItem(Barrel.create(16.0F, GunModifiers.REDUCED_RECOIL), new Item.Properties().stacksTo(1).tab(GunMod.GROUP)));
-    public static final RegistryObject<Item> SNIPER_MUZZLE_BREAK = REGISTER.register("sniper_muzzle_break", () -> new BarrelItem(Barrel.create(16.0F, GunModifiers.SNIPER_RECOIL), new Item.Properties().stacksTo(1).tab(GunMod.GROUP)));
     public static final RegistryObject<Item> LASER_SIGHT = REGISTER.register("laser_sight", () -> new BarrelItem(Barrel.create(3.0F, GunModifiers.LASER), new Item.Properties().stacksTo(1).tab(GunMod.GROUP)));
     
     /* Stock Attachments */
