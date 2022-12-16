@@ -124,7 +124,12 @@ public class RecipeGen extends RecipeProvider
                 .addIngredient(Items.REDSTONE, 4)
                 .addCriterion("has_iron_ingot", has(Tags.Items.INGOTS_IRON))
                 .build(consumer);
-
+        WorkbenchRecipeBuilder.crafting(ModItems.ASSAULT_SHOTGUN.get())
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 32))
+                .addIngredient(Items.REDSTONE, 2)
+                .addCriterion("has_iron_ingot", has(Tags.Items.INGOTS_IRON))
+                .build(consumer);
+                
         // Ammo
         WorkbenchRecipeBuilder.crafting(ModItems.BASIC_BULLET.get(), 64)
                 .addIngredient(WorkbenchIngredient.of(Items.COPPER_INGOT, 4))
@@ -199,16 +204,8 @@ public class RecipeGen extends RecipeProvider
                 .addIngredient(WorkbenchIngredient.of(Items.SPONGE, 1))
                 .addCriterion("has_iron_ingot", has(Tags.Items.NUGGETS_IRON))
                 .build(consumer);
-        WorkbenchRecipeBuilder.crafting(ModItems.LIGHT_MUZZLE_BREAK.get())
-                .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 4))
-                .addCriterion("has_iron_ingot", has(Tags.Items.INGOTS_IRON))
-                .build(consumer);
         WorkbenchRecipeBuilder.crafting(ModItems.MUZZLE_BREAK.get())
                 .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 8))
-                .addCriterion("has_iron_ingot", has(Tags.Items.INGOTS_IRON))
-                .build(consumer);
-        WorkbenchRecipeBuilder.crafting(ModItems.SNIPER_MUZZLE_BREAK.get())
-                .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 16))
                 .addCriterion("has_iron_ingot", has(Tags.Items.INGOTS_IRON))
                 .build(consumer);
         WorkbenchRecipeBuilder.crafting(ModItems.LASER_SIGHT.get())
