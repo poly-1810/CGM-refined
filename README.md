@@ -13,6 +13,7 @@ MrCrayfish's Gun Mod is a new and exciting weapon mod with a unique vision. Addi
 go to https://trello.com/b/epOfpp8Z/cgm-refined if you would like to check out the todo list, and check if your suggestions are accepted
 
 lastly, go to mrcrayfish's discord server and ping poly to suggest things, i respond fairly quickly
+
 ![Break](https://i.imgur.com/NnYcCMD.png)
 
 ### Features:
