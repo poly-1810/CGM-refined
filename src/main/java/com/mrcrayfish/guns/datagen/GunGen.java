@@ -309,10 +309,10 @@ public class GunGen extends GunProvider
                 .setCockSound(ModSounds.ITEM_SHOTGUN_COCK.get())
                 .setSilencedFireSound(ModSounds.ITEM_SHOTGUN_SILENCED_FIRE.get())
                 .setEnchantedFireSound(ModSounds.ITEM_SHOTGUN_ENCHANTED_FIRE.get())
-                .setMuzzleFlash(0.5, 0.0, 3.6505, -3.81)
+                .setMuzzleFlash(0.5, 0.0, 3.6505, -4)
                 .setZoom(0.7F, 0.0, 5.1, 3.2)
                 .setScope(1.0F, 0.0, 4.4, 4.0)
-                .setBarrel(0.5F, 0.0, 3.6506, -3.8)
+                .setBarrel(0.5F, 0.0, 3.6506, -4)
                 .setStock(1.0F, 0.0, 3.6506, 8.4)
                 .build());
     }
