@@ -7,6 +7,13 @@
 MrCrayfish's Gun Mod is a new and exciting weapon mod with a unique vision. Adding nine weapons, all can be highly customised to create your own unique variant. Using attachments and enchantments, you can increase the stats of a weapon to create an even more powerful version. Dyes can be used to change the colour of any weapon and attachment. This mod also adds grenades and stun grenades!
 
 ![Break](https://i.imgur.com/NnYcCMD.png)
+### Warnings and other important info
+!WARNING! use english language when playing, and preferably use forge version 40.1.85 or higher
+
+go to https://trello.com/b/epOfpp8Z/cgm-refined if you would like to check out the todo list, and check if your suggestions are accepted
+
+lastly, go to mrcrayfish's discord server and ping poly to suggest things, i respond fairly quickly
+![Break](https://i.imgur.com/NnYcCMD.png)
 
 ### Features:
 * Includes eleven unique weapons: Pistol, Shotgun, Rifle, Grenade Launcher, Bazooka, Mini Gun, Assault Rifle, Machine Pistol, Heavy Rifle, Light Machine Gun, and Assault Shotgun, with more to be added soon!
